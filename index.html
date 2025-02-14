@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" 
+    /> 
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Soy Jose Chiluiza</title>
+  </head>
+  <body>
+    <!--Header-->
+
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="" class="navL">
+          <img src="img/favicon.png" alt="favicon" class="navL-img" />
+          <!--Titulo de pagina-->
+          Mi Primera Pagina Web
+        </a>
+
+        <div class="navM" id="nav-menu">
+          <ul class="navList">
+            <li class="navItem">
+              <a href="#home" class="navLink active-link"> Inicio </a><!--Indice Pagina-->
+            </li>
+            <li class="navItem">
+              <a href="#about" class="navLink"> Nosotros </a><!--Indice Pagina-->
+            </li>
+            <li class="navItem">       
+              <a href="#product" class="navLink"> Productos </a><!--Indice Pagina-->
+            </li>
+            <li class="navItem">
+              <a href="#new" class="navLink"> Nuevos </a><!--Indice Pagina-->
+            </li>
+            <li class="navItem">
+              <a href="#" class="navLink"> Soporte </a><!--Indice Pagina-->
+            </li>
+          </ul>
+
+          <div class="navclose" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <div class="navToggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!--HOME-->
+      <section class="home container" id="home">
+        <div class="swiper home-swiper">
+          <div class="swiper-wrapper">
+            <section>
+              <div class="homecont grid">
+                <div class="homedata">
+                  <h1 class="hometitle">Que <br />Es <br />Programacion?</h1>
+                  <p class="homedes">
+                    La programación es el proceso de crear instrucciones para que una computadora
+                     ejecute tareas. Se realiza mediante lenguajes como Python, Java o Kotlin. 
+                     Utiliza algoritmos, estructuras de datos y lógica para resolver problemas.
+                      Permite desarrollar aplicaciones, automatizar procesos y analizar datos. 
+                      Es clave en la tecnología y la innovación digital.
+                  </p>
+                  <div class="homebut">
+                    <a href="https://concepto.de/programacion/" class="button" target="_blank">Saber Mas</a><!--Rederencia a otras paginas-->
+                    <a href="https://www.youtube.com/watch?v=a7eznAouNak" class="button" target="_blank">Mirame</a>
+                  </div>
+                </div>
+
+                <div class="homegroup">
+                  <img src="img/home1-img.png" alt="" class="homeimg" />
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <!--CATEGORY-->
+      <section class="section category">
+        <h2 class="sectiontitle">
+          Mas Sobre <br />
+          Programacion
+        </h2>
+
+        <div class="categorycontainer container grid">
+          <div class="categorydata">
+            <img src="img/b1.png" alt="" />
+            <h3 class="categorytitle">HTML</h3>
+            <p class="categorydescription">
+              Lenguaje de marcado que estructura el contenido de una página web (textos, imágenes, enlaces).
+            </p>
+          </div>
+
+          <div class="categorydata">
+            <img src="img/b2.png" alt="" />
+            <h3 class="categorytitle">CSS</h3>
+            <p class="categorydescription">
+              Lenguaje de estilo que define la apariencia visual de una página web (colores, fuentes, disposición).
+            </p>
+            <a href="https://cssgridgenerator.io/" class="button" target="_blank">Aprende más</a>
+          </div>
+
+          <div class="categorydata">
+            <img src="img/b3.png" alt="" />
+            <h3 class="categorytitle">JAVASCRIPT</h3>
+            <p class="categorydescription">
+              Lenguaje de programación que agrega interactividad y dinamismo a la página web (clics, animaciones, cambios en tiempo real).
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--ABOUT-->
+      <section class="section about" id="about">
+        <div class="aboutcontainer container grid">
+          <img src="img/c1.png" alt="" class="aboutimg" />
+          <div class="aboutdata">
+            <h2 class="sectiontitle abouttitle">Divide y <br />Venceras</h2>
+            <p class="aboutdescription">
+              <p>Facilitar la depuración: Es más fácil encontrar errores en secciones pequeñas de código.</p>
+              <p>Reutilizar código: Puedes usar funciones y módulos en diferentes partes de tu programa.</p>
+              <p>Hacerlo más legible: Un código bien estructurado es más fácil de entender y mantener.</p>
+            </p>
+            <a href="https://codefinity.com/" class="button" target="_blank">Cursos</a>
+            <a href="https://retosdeprogramacion.com/ejercicios"  class="button" target="_blank">Pon en Practica</a>
+          </div>
+        </div>
+      </section>
+
+      <!--PRODUCTS-->
+      <section class="section product" id="product">
+        <h2 class="sectiontitle">Download</h2>
+
+        <div class="productcontainer container grid">
+          <div class="productcontent">
+            <img src="img/d1.jpg" alt="" class="productimg" />
+            <h3 class="producttitle">Virtual</h3>
+            <span class="productsubtitle">Machine</span>
+            <span class="productprice">Download</span>
+            <a href="https://drive.google.com/drive/folders/1jX9mocuAlg9aKwt_NrFy3-pQCKZf2rfP?usp=sharing" target="_blank">
+                <button class="button productbutton">
+                    <i class="bx bx-cart-alt producticon"></i>
+                </button>
+            </a>
+        </div>
+        <div class="productcontent">
+          <img src="img/d2.png" alt="" class="productimg" />
+          <h3 class="producttitle">ISO</h3>
+          <span class="productsubtitle">WIN 10</span>
+          <span class="productprice">Download</span>
+          <a href="https://drive.google.com/drive/folders/1Ig9B_ulHunmRs3Q8hi-803Ewvv5Q_UsL?usp=drive_link" target="_blank">
+              <button class="button productbutton">
+                  <i class="bx bx-cart-alt producticon"></i>
+              </button>
+          </a>
+      </div>
+      <div class="productcontent">
+        <img src="img/d3.png" alt="" class="productimg" />
+        <h3 class="producttitle">Visual</h3>
+        <span class="productsubtitle">Studio</span>
+        <span class="productprice">Download</span>
+        <a href="https://drive.google.com/drive/folders/1JwEiQs_qeVK_1-z0lE9vrj2fcAbVfl0A?usp=drive_link" target="_blank">
+            <button class="button productbutton">
+                <i class="bx bx-cart-alt producticon"></i>
+            </button>
+        </a>
+      </div>
+      <div class="productcontent">
+        <img src="img/d4.png" alt="" class="productimg" />
+        <h3 class="producttitle">Test de</h3>
+        <span class="productsubtitle">Programacion</span>
+        <span class="productprice">Te Atrevez?</span>
+        <a href="https://www.goconqr.com/es/cuestionario/9459788/test-de-programacion-basica" target="_blank">
+            <button class="button productbutton">
+                <i class="bx bx-cart-alt producticon"></i>
+            </button>
+        </a>
+      </div>
+      <div class="productcontent">
+        <img src="img/d5.png" alt="" class="productimg" />
+        <h3 class="producttitle">Test de</h3>
+        <span class="productsubtitle">Programacion</span>
+        <span class="productprice">Te Atrevez?</span>
+        <a href="https://www.testprogramacion.com/" target="_blank">
+            <button class="button productbutton">
+                <i class="bx bx-cart-alt producticon"></i>
+            </button>
+        </a>
+      </div>
+      <div class="productcontent">
+        <img src="img/d6.png" alt="" class="productimg" />
+        <h3 class="producttitle">Cursos de</h3>
+        <span class="productsubtitle">Programacion</span>
+        <span class="productprice">Te Atrevez?</span>
+        <a href="https://learn.microsoft.com/es-es/training/modules/web-development-101-introduction-programming/" target="_blank">
+            <button class="button productbutton">
+                <i class="bx bx-cart-alt producticon"></i>
+            </button>
+        </a>
+      </div>
+      </section>
+
+      <!--DESCUENTO-->
+      <section class="section discount">
+        <div class="discountcontainer container grid">
+            <div class="discountdata">
+                <h2 class="discounttitle">40% Descuento <br />En Mantenimientos </h2>
+                <p>(Laptop, Impresoras)</p>
+                <a href="https://www.facebook.com/share/15toni39QN/" class="button" target="_blank">Visitanos</a>
+            </div>
+            <img src="img/e1.png" alt="" class="discountimg" />
+        </div>
+    </section>
+    
+
+      <!--pie de pagina-->
+      <section class="section new" id="new">
+        <h2 class="sectiontitle">Juegos basados a Programacion</h2>
+
+        <div class="newcontainer container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <div class="newcontent swiper-slide" onclick="window.location.href='https://codecombat.com/'" style="cursor: pointer;">
+                <div class="newtag">Game 2</div>
+                <img src="img/f1.png" alt="" class="newimg" />
+                <h3 class="newtitle">Code</h3>
+                <span class="newsubtitle">Combat</span>
+                <div class="newprices">
+                  <span class="newprice">Free</span>
+                  <span class="newdiscount"></span>
+                  <button class="button newbutton">
+                    <i class="bx bx-cart-alt newicon"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="newcontent swiper-slide" onclick="window.location.href='https://tomorrowcorporation.com/humanresourcemachine'" style="cursor: pointer;">
+                <div class="newtag">Game 3</div>
+                <img src="img/f2.png" alt="" class="newimg" />
+                <h3 class="newtitle">Human</h3>
+                <span class="newsubtitle">Resource</span>
+                <div class="newprices">
+                  <span class="newprice">Free</span>
+                  <span class="newdiscount"></span>
+                  <button class="button newbutton">
+                    <i class="bx bx-cart-alt newicon"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="newcontent swiper-slide" onclick="window.location.href='https:https://www.codingame.com/start/'" style="cursor: pointer;">
+              <div class="newcontent swiper-slide">
+                <div class="newtag">Game 1</div>
+                <img src="img/f3.png" alt="" class="newimg" />
+                <h3 class="newtitle">Codin</h3>
+                <span class="newsubtitle">Game</span>
+                <div class="newprices">
+                  <span class="newprice">Free</span>
+                  <span class="newdiscount"></span>
+                  <button class="button newbutton">
+                    <i class="bx bx-cart-alt newicon"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--CORREO-->
+
+      <section class="section newsletter">
+        <div class="newslc container">
+          <h2 class="sectiontitle">Subscribete</h2>
+          <p class="newsld">Se parte de esta nueva experiencia.</p>
+          <form action="" class="newslf">
+            <input type="text" placeholder="Correo" class="newslin" />
+            <button class="button2">Subscribete</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER-->
+    <footer class="footer section">
+      <div class="footercontainer container grid">
+        <div class="footercontent">
+          <a href="#" class="footerL">
+            <img src="img/favicon.png" alt="" class="footerL-img" />
+            Desarrollo de Software
+          </a>
+
+          <p class="footerdescription">
+              El desarrollo de software es el proceso de crear programas informáticos para computadoras,
+              teléfonos móviles y otros dispositivos electrónicos. Implica diseñar, programar,
+              probar y mantener el software.
+              <br />
+              Mas Informacion.
+          </p>
+
+          <div class="footersocial">
+            <a href="https://www.facebook.com/FeRcHo.SK/" target="_blank" class="footersocial-link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/j.fhernando/" target="_blank" class="footersocial-link">
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a href="https://wa.me/0999872827" target="_blank" class="footersocial-link">
+              <i class="bx bxl-whatsapp"></i>
+          </a>
+      </div>
+          
+        </div>
+
+        <div class="footercontent">
+          <h3 class="footertitle">Servicios</h3>
+          <ul class="footerlinks">
+            <li>
+              <a href="#" class="footerlink">Servicio a domicilio</a>
+            </li>
+            <li>
+              <a href="#" class="footerlink">0999872827</a>
+            </li>
+            <li>
+              <a href="#" class="footerlink">0979071336</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footercontent">
+          <h3 class="footertitle">Nosotros</h3>
+          <ul class="footerlinks">
+            <li>
+              <a href="#" class="footerlink">Quienes Somos</a>
+            </li>
+            <li>
+              <a href="#" class="footerlink">Comunidad</a>
+            </li>
+            <li>
+              <a href="#" class="footerlink">Trabaja con nosotros</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footercontent">
+          <h3 class="footertitle">Ayuda</h3>
+          <ul class="footerlinks">
+            <li>
+              <a href="#" class="footerlink">Preguntas frecuentes</a>
+            </li>
+            <li>
+              <a href="#" class="footerlink">Cobertura</a>
+            </li>
+            <li>
+              <a href="#" class="footerlink">Terminos de uso</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footercopy">Jose Chiluiza</span>
+    </footer>
+
+    <!--FOOTER-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollupicon"></i>
+    </a>
+
+    <!--JAVASCRIPT-->
+    <script src="js/scrollreveal.min.js"></script>
+
+    <script src="js/swiper-bundle.min.js"></script> <!--JAVASCRIPT-->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
